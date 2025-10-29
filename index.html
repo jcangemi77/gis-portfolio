@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Joseph's GIS Portfolio</title>
+	<link rel="stylesheet" href="css/leaflet.css">
+	<script src="js/leaflet.js"></script>
+	<link rel="stylesheet" href="css/page_style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="header">
+  <h1 style="font-size: 5vw; margin-top: 5px">Joseph Cangemi's</h1>
+  <h2 style="font-size: 3vw; margin-top: -50px">GIS Portfolio</h2>
+  <p style="font-size: 1.5vw; margin-top: -30px; margin-bottom: 5px">Welcome to my GIS portfolio. On the left, you'll find my resume detailing my professional experience. On the right, explore an interactive map that highlights key projects and the places where I've made an impact. If you'd like to learn more or get in touch, my contact information is available below.</p>
+</div>
+
+<div class="resume">
+  <img id="resume" src="data/GIS_resume.png">
+  <input id="download_resume" type="button" value="Open as PDF">
+</div>
+
+<div class="map">
+  <div id="map"></div>
+</div>
+
+<div class="footer">
+  <p style="font-size: 16px; margin-top: 5px; margin-bottom: 5px">Thank you for your interest! &emsp;
+  <a href="mailto:jcangemi77@gmail.com">jcangemi77@gmail.com</a> &emsp;
+  631-707-6766</p>
+</div>
+
+</div>
+
+<!-- JS for map added at the end of HTML document to allow for elements to load before selection -->
+<script src="js/project_map.js"></script>
+
+<script>
+// configure download button for resume
+document.getElementById("download_resume").addEventListener("click", download_resume);
+function download_resume() {
+  open("data/GIS_resume.pdf", target="_blank");
+}
+</script>
+
+</body>
+
+</html>
