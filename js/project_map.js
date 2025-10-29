@@ -8,7 +8,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // add data & dynamic styling
-fetch("/data/projects.json")
+fetch("../data/projects.json")
   .then(function(response) {
 	return response.json();
   })
@@ -38,4 +38,5 @@ explanation.onAdd = function() {
 };
 explanation.addTo(map);
 */
+
 // conflicting with z-index of popups
