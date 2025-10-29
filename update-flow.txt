@@ -3,10 +3,11 @@ README
 Workflow to keep project page updated
 
 data folder:
-- GIS_resume.pdf & GIS_resume.png should be replaced with copies of the same name
+- Joseph_Cangemi_Resume.pdf & Joseph_Cangemi_Resume.png should be replaced with copies of the same name
 
 js folder:
 - add new experiences onto JSON
 
 images:
+
 - add new images from experiences into image folder, match with galleryHTML attribute in JSON
