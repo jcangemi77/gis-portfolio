@@ -2,14 +2,25 @@
 .container {
   display: grid;
   grid-template-areas:
-    "header header"
-    "resume map"
-    "footer footer";
-  grid-template-columns: 1fr 2fr;	/* resume, map */
-  grid-template-rows: auto 1fr auto;	/* header, content & map, footer */
+	"header header"
+	"gallery map"
+	"footer footer";
+  grid-template-columns: 1fr 1fr;	/* gallery, map */
+  grid-template-rows: auto 1fr auto;	/* header, content, footer */
   gap: 3px;
   background-color: purple;
   padding: 3px;
+}
+@media (max-width: 50em) {
+.container {
+  grid-template-areas:
+	"header"
+	"gallery"
+	"map"
+	"footer";
+  grid-template-columns: auto;
+  grid-template-rows: auto 1fr 1fr auto;
+}
 }
 .container div {
   background-color: white;
@@ -20,25 +31,43 @@
   text-align: center;
   background-color: plum;
 }
-.container div.resume {
-  grid-area: resume;
+.container div.gallery {
+  grid-area: gallery;
+  overflow: hidden;
 }
 .container div.map {
   grid-area: map;
-  /*overflow: hidden;*/
 }
 .container div.footer {
   grid-area: footer;
   text-align: center;  
   background-color: plum;
 }
-#resume {width: 100%, height: auto; max-width: 600px;}
+
+/* header styling */
+.header h1, h2, p {margin-top: auto; margin-bottom: auto;}
+.header h1 {font-size: 5vw;}
+.header h2 {font-size: 3vw;}
+.header p {font-size: min(2vw, 16px); margin-left: 10%; margin-right: 10%; padding: 5px;}
+
+/* gallery styling */
+#gallery_popup {
+  width: 100%;
+  display: flex;	/* lays out images in a row */
+  overflow-x: auto;	/* enables horizontal scroll */
+}
+#gallery_initial p {font-size: min(2.2vmax, 16px); padding-top: 5px; padding-bottom: 5px;}
+#gallery figure {
+  flex-shrink: 0; width: 99%;
+  margin: 0px;
+}
+#gallery figure img {width: 100%;}
+#gallery figcaption {text-align: center; font-size: min(2vmax, 14px);}
 
 /* map styling */
 #map {width: 100%; height: 100%;}
 .leaflet-popup-content {margin: 0px;}
 .popup {color: black;}
 .popup h2 {text-align: center;}
-.popup img {width: 100%;}
-.popup .small {font-size: 10px; text-align: right; margin-top:-3px;}
+.leaflet-container a.leaflet-popup-close-button {color: black;}
 .leaflet-top.leaflet-right {z-index: 400;}
