@@ -9,12 +9,14 @@
   },
   "properties": {
 	"name": "University of Massachusetts Amherst",
-	"orgDescription": "The University of Massachusetts Amherst is a public research university offering a wide range of academic programs across disciplines. Within its Department of Earth, Geographic, and Climate Sciences, the one-year master’s concentration in Geographic Information Science and Technology (GIST) provides focused training in spatial analysis, remote sensing, and GIS application development. The program prepares students for applied work in environmental planning, transportation, and public policy through a combination of technical coursework and practical experience.",
-	"description": "I completed my graduate degree in Geographic Information Science and Technology (GIST) at UMass Amherst, where I gained hands-on experience in spatial analysis, remote sensing, and GIS application design. The program emphasized both technical proficiency and real-world impact, preparing me to contribute to transportation and environmental data projects with confidence and precision. My coursework and practicum experiences laid the foundation for my work with organizations like MassDOT and the Charles River Conservancy.",
+	"description": "The University of Massachusetts Amherst is a public research university offering a wide range of academic programs across disciplines. Within its Department of Earth, Geographic, and Climate Sciences, the one-year master’s concentration in Geographic Information Science and Technology (GIST) provides focused training in spatial analysis, remote sensing, and GIS application development. The program prepares students for applied work in environmental planning, transportation, and public policy through a combination of technical coursework and practical experience.",
+	"experience": "I completed my graduate degree in Geographic Information Science and Technology (GIST) at UMass Amherst, where I gained hands-on experience in spatial analysis, remote sensing, and GIS application design. The program emphasized both technical proficiency and real-world impact, preparing me to contribute to transportation and environmental data projects with confidence and precision. My coursework and practicum experiences laid the foundation for my work with organizations like MassDOT and the Charles River Conservancy.",
 	"link": "https://sites.google.com/umass.edu/umass-gist/",
 	"color": "rgb(136, 28, 28)",
-	"galleryID": "umass",
-	"galleryHTML": "<a href='images/umass_1.png' target='_blank'><img src='images/umass_1.png'></a><a href='images/umass_2.png' target='_blank'><img src='images/umass_2.png'></a><p class='small'>Click the images to enlarge in a new window.</p>"
+	"gallery": [
+	  {"src": "images/umass_1.png", "caption": "An exerpt from a brochure I made for my Environmental Geography & Sustainability course, where I illustrated the geographical changes of the Charles River over the historical development of Boston. Notice how the Charles River basin has become constricted, and how the shoreline has been expanded and straightened. Creation of this map employed techniques such as georeferencing, creation of features, utilizing open data, and more."},
+	  {"src": "images/umass_2.png", "caption": "During my time taking the course Spatial Databases & Data Interoperability, I learned how to utilize FME, a model builder meant to manage data in an automized way. This is actually my workflow for the Vegetation Monitoring Dashboard I created, which you can learn more from another waypoint on the map. FME helped me to speed up statistics and geographic feature creation without requiring coding. It's important to keep everything organized and colorized so that it can be revisited in the future as needed."}
+	]
   }
 },
 {
@@ -25,12 +27,13 @@
   },
   "properties": {
 	"name": "Charles River Conservancy",
-	"orgDescription": "The Charles River Conservancy is a nonprofit organization dedicated to enhancing and maintaining the parks and natural habitats along the Charles River in Greater Boston. Through ecological restoration, volunteer stewardship, and public engagement, CRC works to preserve biodiversity and promote equitable access to green spaces. Its initiatives include invasive species management, environmental monitoring, and creative programming in urban wilds like Hell’s Half Acre.",
-	"description": "As a volunteer with CRC, I contributed over 80 hours to invasive species monitoring and urban park restoration along the Charles and in Hell’s Half Acre, an urban wild in Cambridge, MA. In addition to my fieldwork as a CREW Steward and Vegetation Monitor, I developed an ArcGIS dashboard as part of a final project for one of my graduate courses. The tool visualizes plant coverage data collected by volunteers and is now featured on CRC’s website. Though created independently, the dashboard was designed to support CRC’s restoration efforts and make ecological data more accessible to both the organization and the public.",
+	"description": "The Charles River Conservancy is a nonprofit organization dedicated to enhancing and maintaining the parks and natural habitats along the Charles River in Greater Boston. Through ecological restoration, volunteer stewardship, and public engagement, CRC works to preserve biodiversity and promote equitable access to green spaces. Its initiatives include invasive species management, environmental monitoring, and creative programming in urban wilds like Hell’s Half Acre.",
+	"experience": "As a volunteer with CRC, I contributed over 80 hours to invasive species monitoring and urban park restoration along the Charles and in Hell’s Half Acre, an urban wild in Cambridge, MA. In addition to my fieldwork as a CREW Steward and Vegetation Monitor, I developed an ArcGIS dashboard as part of a final project for one of my graduate courses. The tool visualizes plant coverage data collected by volunteers and is now featured on CRC’s website. Though created independently, the dashboard was designed to support CRC’s restoration efforts and make ecological data more accessible to both the organization and the public.",
 	"link": "https://thecharles.org",
 	"color": "rgb(118, 135, 21)",
-	"galleryID": "crc",
-	"galleryHTML": "<a href='https://umass-amherst.maps.arcgis.com/apps/dashboards/7197d1c4291c44a18515ef4c21430ed1' target='_blank'><img src='images/crc.png'></a><p class='small'>Click the image to explore the dashboard!</p>"
+	"gallery": [
+	  {"src": "images/crc.png", "caption": "I am passionate about my volunteer work with the Charles River Conservancy, where I act as a CREW Steward and Vegetation Monitor. Through the CREW program, I take care of an assigned section of the Charles by collecting litter and removing/reporting invasive species. Through the Vegetation Monitoring program, I record the growth of plants in a local urban wild in response to restoration efforts. To expand on my volunteer work with the CRC and in an effort to introduce a GIS perspective to the organization, I created this <a href='https://umass-amherst.maps.arcgis.com/apps/dashboards/7197d1c4291c44a18515ef4c21430ed1' target='_blank'>Vegetation Monitoring Dashboard</a> to make our findings accessible to the public and interpretable by the CRC. You can select by species & habitat type to visualize plant distributions based on their ground coverage throughout the year."}
+	]
   }
 },
 {
@@ -41,12 +44,17 @@
   },
   "properties": {
 	"name": "18b TIP",
-	"orgDescription": "18b TIP is a community-based initiative in Suffolk County, NY that supports formerly incarcerated individuals through social work, resource navigation, and reintegration services. The program focuses on personalized outreach and geographic accessibility, helping clients connect with housing, employment, health care, and other essential services as they transition back into society.",
-	"description": "At 18b TIP, I led the development of an interactive GIS dashboard using ArcGIS Experience Builder to centralize community resources for formerly incarcerated individuals in Suffolk County. The dashboard is actively used by the organization’s team of social workers and their interns to recommend geographically relevant services to their clients. Working iteratively with my supervisor, I structured the data, designed the interface, and introduced layered filtering tools to support intuitive navigation and personalized outreach. The dashboard continues to evolve as the team’s needs grow, offering a flexible platform for ongoing updates and community engagement.",
+	"description": "18b TIP is a community-based initiative in Suffolk County, NY that supports formerly incarcerated individuals through social work, resource navigation, and reintegration services. The program focuses on personalized outreach and geographic accessibility, helping clients connect with housing, employment, health care, and other essential services as they transition back into society.",
+	"experience": "At 18b TIP, I led the development of an interactive GIS dashboard using ArcGIS Experience Builder to centralize community resources for formerly incarcerated individuals in Suffolk County. The dashboard is actively used by the organization’s team of social workers, legal professionals, and their interns to recommend geographically relevant services to their clients. Working iteratively with my supervisor, I structured the data, designed the interface, and introduced layered filtering tools to support intuitive navigation and personalized outreach. The dashboard continues to evolve as the team’s needs grow, offering a flexible platform for ongoing updates and community engagement.",
 	"link": "https://www.suffolk18b.org/",
 	"color": "rgb(0, 48, 91)",
-	"galleryID": "_18b",
-	"galleryHTML": "<a href='images/18b_1.png' target='_blank'><img src='images/18b_1.png'></a><a href='images/18b_2.png' target='_blank'><img src='images/18b_2.png'></a><a href='images/18b_3.png' target='_blank'><img src='images/18b_3.png'></a><a href='images/18b_4.png' target='_blank'><img src='images/18b_4.png'></a><a href='images/18b_5.png' target='_blank'><img src='images/18b_5.png'></a><p class='small'>Click the images to enlarge in a new window.</p>"
+	"gallery": [
+	  {"src": "images/18b_1.png", "caption": "Homepage of the Suffolk County 18b TIP resource dashboard. There are several categories listed alphabetically on the left. Once clicked they bring you to their own page full of relevant resources. Some are GIS based some are simply written."},
+	  {"src": "images/18b_2.png", "caption": "The Food Assistance category. Once an address is entered up top, the proximity analysis widget runs, showing all resources within a certain radius. In this case, food pantries and soup kitchens within a 15 mile radius are shown."},
+	  {"src": "images/18b_3.png", "caption": "This image displays the list below the map. The resources are sorted by distance to the entered anddress and reflect the specified filters. In this case, the 'Soup kitchen' filter is selected. Each resource card shows several data-based information such as name, address, phone number, and website. When the user hovers over a card, more informaiton is displayed to give extra context to the resource before needing to click the link and browse a website."},
+	  {"src": "images/18b_4.png", "caption": "This is the Hotlines & Helplines category. While it is not GIS based, it is still data-based and reflects extensive use of filtering. In this case, all resources reflect the selected filters of Hotlines or Helplines specializing in Mental Health or LGBTQ Concerns that support Spanish-speaking individuals."},
+	  {"src": "images/18b_5.png", "caption": "On the left is a menu that can be opened at any page in the dashboard by way of the header. It is a handy way to navigate to different categories without needing to return to the homepage. In the background of the image is the Applications page which features numerous applications that may be relevant to the client."}
+	]
   }
 },
 {
@@ -57,12 +65,13 @@
   },
   "properties": {
 	"name": "MassDOT",
-	"orgDescription": "The Massachusetts Department of Transportation (MassDOT) oversees transportation infrastructure across the Commonwealth, including highways, public transit, aeronautics, and rail. Through its divisions and open data initiatives, MassDOT supports planning, safety, and accessibility efforts statewide. The agency maintains a robust GIS program that provides spatial datasets for roadways, environmental assets, multimodal networks, and more.",
-	"description": "As part of my graduate practicum, I worked remotely with MassDOT to digitize speed regulation records into a centralized GIS layer. My focus was on Southeast Massachusetts, contributing to a broader effort to improve data consistency and accessibility across the state. While I didn’t visit the region in person, the project gave me practical experience with structured workflows and highlighted how foundational GIS work supports larger transportation planning initiatives. This foundational effort supported broader planning and analysis across the agency.",
+	"description": "The Massachusetts Department of Transportation (MassDOT) oversees transportation infrastructure across the Commonwealth, including highways, public transit, aeronautics, and rail. Through its divisions and open data initiatives, MassDOT supports planning, safety, and accessibility efforts statewide. The agency maintains a robust GIS program that provides spatial datasets for roadways, environmental assets, multimodal networks, and more.",
+	"experience": "As part of my graduate practicum, I worked remotely with MassDOT to digitize speed regulation records into a centralized GIS layer. My focus was on Southeast Massachusetts, contributing to a broader effort to improve data consistency and accessibility across the state. While I didn’t visit the region in person, the project gave me practical experience with structured workflows and highlighted how foundational GIS work supports larger transportation planning initiatives. This foundational effort supported broader planning and analysis across the agency.",
 	"link": "https://geodot.mass.gov/",
 	"color": "rgb(20, 85, 143)",
-	"galleryID": "massDOT",
-	"galleryHTML": "<a href='images/massDOT.png' target='_blank'><img src='images/massDOT.png'></a><p class='small'>Click the image to enlarge in a new window.</p>"
+	"gallery": [
+	  {"src": "images/massDOT.png", "caption": "During my education at UMass Amherst, I completed a practicum with the Massachusetts Department of Transportation. I worked with a team of interns to help digitize speed regulation records from paper format to a GIS layer. You can see an example of the paper speed regulation on the left of the image, and the geographic information system that we used on the right to modernize this data. Though a tedious and manual task, my time at MassDOT taught me of the essential role GIS plays in our public infrastructure. Now that this data has been digitized, MassDOT is able to spatially analyze speed regulations across Massachusetts, and can use this information to support other projects."}
+	]
   }
 }
 ]
