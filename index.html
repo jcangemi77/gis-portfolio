@@ -13,14 +13,22 @@
 <div class="container">
 
 <div class="header">
-  <h1 style="font-size: 5vw; margin-top: 5px">Joseph Cangemi</h1>
-  <h2 style="font-size: 3vw; margin-top: -50px">GIS Portfolio</h2>
-  <p style="font-size: 1.5vw; margin-top: -30px; margin-bottom: 5px">Welcome to my GIS portfolio. On the left, you'll find my resume detailing my professional experience. On the right, explore an interactive map that highlights key projects and the places where I've made an impact. If you'd like to learn more or get in touch, my contact information is available below.</p>
+  <h1>Joseph Cangemi</h1>
+  <h2>GIS Portfolio</h2>
+  <p>Welcome to my GIS portfolio. On the right, explore an interactive map that highlights key projects and the places where I've made an impact. On the left, once you click on a point on the map, you'll see a gallery showcasing each project I completed at the location you selected. If you'd like to get in touch, my contact information is available below.</p>
 </div>
 
-<div class="resume">
-  <img id="resume" src="data/Joseph_Cangemi_Resume.png">
-  <input id="download_resume" type="button" value="Open as PDF">
+<div class="gallery">
+<div id="gallery">
+  <div id="gallery_initial" style="min-height: 50vh;">
+	<h2>About Me</h2>
+	<p>I'm a <b>GIS Specialist</b> with graduate training in <b>Geographic Information Science & Technology</b> from <b>UMass Amherst</b> and over two years of professional experience. My work has supported <b>nonprofit initiatives</b>, <b>transportation planning</b>, and <b>environmental stewardship</b>, where I've applied GIS to make data more accessible and actionable. I've developed <b>dashboards</b> used by social workers and legal professionals, <b>digitized transportation records</b> to improve planning workflows, and <b>introduced GIS tools</b> into volunteer programs to support ecological restoration. Along the way, I've focused on creating GIS solutions that are accurate, accessible, and easy to use, while <b>adapting to new tools and workflows quickly</b>.</p>
+	<p><i>Explore the map to see how I've contributed to projects across organizations!</i></p>
+	<p>Outside of formal projects, I enjoy exploring how GIS can enrich my own everyday experiences. Living in Boston, I've put together <b>scratchwork web maps</b> of places around the city, <b>collected GPS data</b> while foraging plants, and <b>experimented with open-source tools</b> like OsmAnd & Leaflet to see how maps can work offline and at low-cost. These side projects keep me connected to the practical and creative sides of mapping, fueling my curiosity and giving me new ways to engage with the places I care about. They remind me that GIS isn't only a professional skill &mdash; it's also a <b>personal passion</b> that shapes how I see and experience the world around me.</p>
+  </div>
+  <div id="gallery_popup"></div>
+  <div id="return_button"></div>
+</div>
 </div>
 
 <div class="map">
@@ -28,7 +36,7 @@
 </div>
 
 <div class="footer">
-  <p style="font-size: 16px; margin-top: 5px; margin-bottom: 5px">Thank you for your interest! &emsp;
+  <p style="font-size: 16px; margin-top: 5px; margin-bottom: 5px">Thank you for your interest! Please reach out if you would like a resume. &emsp;
   <a href="mailto:jcangemi77@gmail.com">jcangemi77@gmail.com</a> &emsp;
   631-707-6766</p>
 </div>
@@ -38,16 +46,6 @@
 <!-- JS for map added at the end of HTML document to allow for elements to load before selection -->
 <script src="js/project_map.js"></script>
 
-<script>
-// configure download button for resume
-document.getElementById("download_resume").addEventListener("click", download_resume);
-function download_resume() {
-  open("data/Joseph_Cangemi_Resume.pdf", target="_blank");
-}
-</script>
-
 </body>
 
-
 </html>
-
