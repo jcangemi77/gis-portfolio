@@ -65,14 +65,15 @@
   },
   "properties": {
 	"name": "MassDOT",
-	"description": "The Massachusetts Department of Transportation (MassDOT) oversees transportation infrastructure across the Commonwealth, including highways, public transit, aeronautics, and rail. Through its divisions and open data initiatives, MassDOT supports planning, safety, and accessibility efforts statewide. The agency maintains a robust GIS program that provides spatial datasets for roadways, environmental assets, multimodal networks, and more.",
-	"experience": "As part of my graduate practicum, I worked remotely with MassDOT to digitize speed regulation records into a centralized GIS layer. My focus was on Southeast Massachusetts, contributing to a broader effort to improve data consistency and accessibility across the state. While I didn’t visit the region in person, the project gave me practical experience with structured workflows and highlighted how foundational GIS work supports larger transportation planning initiatives. This foundational effort supported broader planning and analysis across the agency.",
+	"description": "The Massachusetts Department of Transportation (MassDOT) oversees transportation infrastructure across the Commonwealth, including highways, public transit, aeronautics, and rail. Through its divisions and open data initiatives, MassDOT advances statewide goals in planning, safety, and accessibility. The agency also maintains a robust GIS program that provides spatial datasets for roadways, environmental assets, multimodal networks, and more.",
+	"experience": "As part of my graduate practicum, I worked remotely with MassDOT to digitize speed regulation records into a centralized GIS layer. My focus was on Southeast Massachusetts, contributing to a broader initiative to improve data consistency and accessibility across the state. While I didn’t visit the region in person, the project gave me practical experience with structured workflows and demonstrated how foundational GIS work supports transportation planning and analysis across the agency.",
 	"link": "https://geodot.mass.gov/",
 	"color": "rgb(20, 85, 143)",
 	"gallery": [
-	  {"src": "images/massDOT.png", "caption": "During my education at UMass Amherst, I completed a practicum with the Massachusetts Department of Transportation. I worked with a team of interns to help digitize speed regulation records from paper format to a GIS layer. You can see an example of the paper speed regulation on the left of the image, and the geographic information system that we used on the right to modernize this data. Though a tedious and manual task, my time at MassDOT taught me of the essential role GIS plays in our public infrastructure. Now that this data has been digitized, MassDOT is able to spatially analyze speed regulations across Massachusetts, and can use this information to support other projects."}
+	  {"src": "images/massDOT.png", "caption": "During my graduate practicum at UMass Amherst, I worked with MassDOT to digitize speed regulation records from paper format into a GIS layer. The image shows a paper speed regulation on the left and the GIS system on the right, which we used to modernize this data. Though the task was detailed and manual, it taught me of the essential role GIS plays in supporting our public infrastructure. Now that these records have been digitized, MassDOT is able to spatially analyze speed regulations across Massachusetts and can leverage this information to inform future projects."}
 	]
   }
 }
 ]
+
 }
