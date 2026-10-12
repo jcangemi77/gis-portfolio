@@ -56,7 +56,8 @@
   display: flex;	/* lays out images in a row */
   overflow-x: auto;	/* enables horizontal scroll */
 }
-#gallery_initial p {font-size: min(2.2vmax, 16px); padding-top: 5px; padding-bottom: 5px;}
+#gallery_initial p {font-size: min(2.2vmax, 16px); padding-top: 5px;}
+#gallery ul {margin: 0px;}
 #gallery figure {
   flex-shrink: 0; width: 99%;
   margin: 0px;
@@ -71,3 +72,9 @@
 .popup h2 {text-align: center;}
 .leaflet-container a.leaflet-popup-close-button {color: black;}
 .leaflet-top.leaflet-right {z-index: 400;}
+
+/* footer styling */
+.footer p {
+	font-size: 16px;
+	margin-top: 5px; margin-bottom: 5px;
+}
